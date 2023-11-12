@@ -1,0 +1,33 @@
+{
+  "name": "jswebtokenconfig",
+  "version": "1.0.0",
+  "description": "Javascript Web Tokens Basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irachriskhan/JsWebTokenConfig.git"
+  },
+  "keywords": [
+    "webtoken",
+    "token"
+  ],
+  "author": "Christophe Irakoze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irachriskhan/JsWebTokenConfig/issues"
+  },
+  "homepage": "https://github.com/Irachriskhan/JsWebTokenConfig#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
