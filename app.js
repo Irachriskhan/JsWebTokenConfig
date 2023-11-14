@@ -6,10 +6,13 @@ const app = express();
 
 const notFoundMiddleware = require("./middleware/not-found");
 const errorHandlerMiddleware = require("./middleware/error-handler");
+const mainRoute = require("./routes/main");
 
 // middleware
 app.use(express.static("./public"));
 app.use(express.json());
+
+app.use("/api/v1", mainRoute);
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
